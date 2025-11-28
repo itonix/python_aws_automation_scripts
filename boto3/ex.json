@@ -1,0 +1,372 @@
+[
+  {
+    'ReservationId': 'r-02d8dc9373bd07ae5',
+    'OwnerId': '964936527908',
+    'Groups': [
+      
+    ],
+    'Instances': [
+      {
+        'Architecture': 'x86_64',
+        'BlockDeviceMappings': [
+          {
+            'DeviceName': '/dev/xvda',
+            'Ebs': {
+              'AttachTime': datetime.datetime(2025,
+              11,
+              27,
+              12,
+              44,
+              20,
+              tzinfo=tzutc()),
+              'DeleteOnTermination': True,
+              'Status': 'attached',
+              'VolumeId': 'vol-0ecf7151d745a46be'
+            }
+          }
+        ],
+        'ClientToken': '218bf12a-c594-49c0-a707-ef695bac9b2b',
+        'EbsOptimized': True,
+        'EnaSupport': True,
+        'Hypervisor': 'xen',
+        'NetworkInterfaces': [
+          {
+            'Attachment': {
+              'AttachTime': datetime.datetime(2025,
+              11,
+              27,
+              12,
+              44,
+              19,
+              tzinfo=tzutc()),
+              'AttachmentId': 'eni-attach-0ddd6b9b62624fa26',
+              'DeleteOnTermination': True,
+              'DeviceIndex': 0,
+              'Status': 'attached',
+              'NetworkCardIndex': 0
+            },
+            'Description': '',
+            'Groups': [
+              {
+                'GroupId': 'sg-06af2079f9ae5fa03',
+                'GroupName': 'launch-wizard-2'
+              }
+            ],
+            'Ipv6Addresses': [
+              
+            ],
+            'MacAddress': '0a:a3:5d:df:4f:05',
+            'NetworkInterfaceId': 'eni-0744e4d6e371fd6b8',
+            'OwnerId': '964936527908',
+            'PrivateDnsName': 'ip-172-31-44-120.eu-west-2.compute.internal',
+            'PrivateIpAddress': '172.31.44.120',
+            'PrivateIpAddresses': [
+              {
+                'Primary': True,
+                'PrivateDnsName': 'ip-172-31-44-120.eu-west-2.compute.internal',
+                'PrivateIpAddress': '172.31.44.120'
+              }
+            ],
+            'SourceDestCheck': True,
+            'Status': 'in-use',
+            'SubnetId': 'subnet-08e120bb1402b7fba',
+            'VpcId': 'vpc-0971839fabf831029',
+            'InterfaceType': 'interface',
+            'Operator': {
+              'Managed': False
+            }
+          }
+        ],
+        'RootDeviceName': '/dev/xvda',
+        'RootDeviceType': 'ebs',
+        'SecurityGroups': [
+          {
+            'GroupId': 'sg-06af2079f9ae5fa03',
+            'GroupName': 'launch-wizard-2'
+          }
+        ],
+        'SourceDestCheck': True,
+        'StateReason': {
+          'Code': 'Client.UserInitiatedShutdown',
+          'Message': 'Client.UserInitiatedShutdown: User initiated shutdown'
+        },
+        'Tags': [
+          {
+            'Key': 'cleanup',
+            'Value': 'true'
+          },
+          {
+            'Key': 'Name',
+            'Value': 'test'
+          }
+        ],
+        'VirtualizationType': 'hvm',
+        'CpuOptions': {
+          'CoreCount': 1,
+          'ThreadsPerCore': 2
+        },
+        'CapacityReservationSpecification': {
+          'CapacityReservationPreference': 'open'
+        },
+        'HibernationOptions': {
+          'Configured': False
+        },
+        'MetadataOptions': {
+          'State': 'applied',
+          'HttpTokens': 'required',
+          'HttpPutResponseHopLimit': 2,
+          'HttpEndpoint': 'enabled',
+          'HttpProtocolIpv6': 'disabled',
+          'InstanceMetadataTags': 'enabled'
+        },
+        'EnclaveOptions': {
+          'Enabled': False
+        },
+        'BootMode': 'uefi-preferred',
+        'PlatformDetails': 'Linux/UNIX',
+        'UsageOperation': 'RunInstances',
+        'UsageOperationUpdateTime': datetime.datetime(2025,
+        11,
+        27,
+        12,
+        44,
+        19,
+        tzinfo=tzutc()),
+        'PrivateDnsNameOptions': {
+          'HostnameType': 'ip-name',
+          'EnableResourceNameDnsARecord': True,
+          'EnableResourceNameDnsAAAARecord': False
+        },
+        'MaintenanceOptions': {
+          'AutoRecovery': 'default',
+          'RebootMigration': 'default'
+        },
+        'CurrentInstanceBootMode': 'uefi',
+        'NetworkPerformanceOptions': {
+          'BandwidthWeighting': 'default'
+        },
+        'Operator': {
+          'Managed': False
+        },
+        'InstanceId': 'i-0aed7466174690d41',
+        'ImageId': 'ami-03f3a22c5f8f5ef58',
+        'State': {
+          'Code': 80,
+          'Name': 'stopped'
+        },
+        'PrivateDnsName': 'ip-172-31-44-120.eu-west-2.compute.internal',
+        'PublicDnsName': '',
+        'StateTransitionReason': 'User initiated (2025-11-27 12:45:49 GMT)',
+        'KeyName': 'euro',
+        'AmiLaunchIndex': 0,
+        'ProductCodes': [
+          
+        ],
+        'InstanceType': 't3.micro',
+        'LaunchTime': datetime.datetime(2025,
+        11,
+        27,
+        12,
+        44,
+        19,
+        tzinfo=tzutc()),
+        'Placement': {
+          'GroupName': '',
+          'Tenancy': 'default',
+          'AvailabilityZone': 'eu-west-2b'
+        },
+        'Monitoring': {
+          'State': 'disabled'
+        },
+        'SubnetId': 'subnet-08e120bb1402b7fba',
+        'VpcId': 'vpc-0971839fabf831029',
+        'PrivateIpAddress': '172.31.44.120'
+      }
+    ]
+  },
+  {
+    'ReservationId': 'r-08e83e896eeab850b',
+    'OwnerId': '964936527908',
+    'Groups': [
+      
+    ],
+    'Instances': [
+      {
+        'Architecture': 'x86_64',
+        'BlockDeviceMappings': [
+          {
+            'DeviceName': '/dev/xvda',
+            'Ebs': {
+              'AttachTime': datetime.datetime(2025,
+              11,
+              27,
+              12,
+              46,
+              26,
+              tzinfo=tzutc()),
+              'DeleteOnTermination': True,
+              'Status': 'attached',
+              'VolumeId': 'vol-0f4d31bfc1bf36372'
+            }
+          }
+        ],
+        'ClientToken': '093305bc-b2c3-4dd7-855e-6af65da2fe5a',
+        'EbsOptimized': True,
+        'EnaSupport': True,
+        'Hypervisor': 'xen',
+        'NetworkInterfaces': [
+          {
+            'Attachment': {
+              'AttachTime': datetime.datetime(2025,
+              11,
+              27,
+              12,
+              46,
+              25,
+              tzinfo=tzutc()),
+              'AttachmentId': 'eni-attach-0994834894f5f57dd',
+              'DeleteOnTermination': True,
+              'DeviceIndex': 0,
+              'Status': 'attached',
+              'NetworkCardIndex': 0
+            },
+            'Description': '',
+            'Groups': [
+              {
+                'GroupId': 'sg-0ee9d21cdd05e34b1',
+                'GroupName': 'launch-wizard-3'
+              }
+            ],
+            'Ipv6Addresses': [
+              
+            ],
+            'MacAddress': '0a:2e:ee:e9:72:25',
+            'NetworkInterfaceId': 'eni-0bf031380b9494d64',
+            'OwnerId': '964936527908',
+            'PrivateDnsName': 'ip-172-31-35-23.eu-west-2.compute.internal',
+            'PrivateIpAddress': '172.31.35.23',
+            'PrivateIpAddresses': [
+              {
+                'Primary': True,
+                'PrivateDnsName': 'ip-172-31-35-23.eu-west-2.compute.internal',
+                'PrivateIpAddress': '172.31.35.23'
+              }
+            ],
+            'SourceDestCheck': True,
+            'Status': 'in-use',
+            'SubnetId': 'subnet-08e120bb1402b7fba',
+            'VpcId': 'vpc-0971839fabf831029',
+            'InterfaceType': 'interface',
+            'Operator': {
+              'Managed': False
+            }
+          }
+        ],
+        'RootDeviceName': '/dev/xvda',
+        'RootDeviceType': 'ebs',
+        'SecurityGroups': [
+          {
+            'GroupId': 'sg-0ee9d21cdd05e34b1',
+            'GroupName': 'launch-wizard-3'
+          }
+        ],
+        'SourceDestCheck': True,
+        'StateReason': {
+          'Code': 'Client.UserInitiatedShutdown',
+          'Message': 'Client.UserInitiatedShutdown: User initiated shutdown'
+        },
+        'Tags': [
+          {
+            'Key': 'cleanup',
+            'Value': 'true'
+          },
+          {
+            'Key': 'Name',
+            'Value': 'deletethis'
+          }
+        ],
+        'VirtualizationType': 'hvm',
+        'CpuOptions': {
+          'CoreCount': 1,
+          'ThreadsPerCore': 2
+        },
+        'CapacityReservationSpecification': {
+          'CapacityReservationPreference': 'open'
+        },
+        'HibernationOptions': {
+          'Configured': False
+        },
+        'MetadataOptions': {
+          'State': 'applied',
+          'HttpTokens': 'required',
+          'HttpPutResponseHopLimit': 2,
+          'HttpEndpoint': 'enabled',
+          'HttpProtocolIpv6': 'disabled',
+          'InstanceMetadataTags': 'disabled'
+        },
+        'EnclaveOptions': {
+          'Enabled': False
+        },
+        'BootMode': 'uefi-preferred',
+        'PlatformDetails': 'Linux/UNIX',
+        'UsageOperation': 'RunInstances',
+        'UsageOperationUpdateTime': datetime.datetime(2025,
+        11,
+        27,
+        12,
+        46,
+        25,
+        tzinfo=tzutc()),
+        'PrivateDnsNameOptions': {
+          'HostnameType': 'ip-name',
+          'EnableResourceNameDnsARecord': True,
+          'EnableResourceNameDnsAAAARecord': False
+        },
+        'MaintenanceOptions': {
+          'AutoRecovery': 'default',
+          'RebootMigration': 'default'
+        },
+        'CurrentInstanceBootMode': 'uefi',
+        'NetworkPerformanceOptions': {
+          'BandwidthWeighting': 'default'
+        },
+        'Operator': {
+          'Managed': False
+        },
+        'InstanceId': 'i-017fff60897c132e3',
+        'ImageId': 'ami-03f3a22c5f8f5ef58',
+        'State': {
+          'Code': 80,
+          'Name': 'stopped'
+        },
+        'PrivateDnsName': 'ip-172-31-35-23.eu-west-2.compute.internal',
+        'PublicDnsName': '',
+        'StateTransitionReason': 'User initiated (2025-11-27 13:01:56 GMT)',
+        'KeyName': 'euro',
+        'AmiLaunchIndex': 0,
+        'ProductCodes': [
+          
+        ],
+        'InstanceType': 't3.micro',
+        'LaunchTime': datetime.datetime(2025,
+        11,
+        27,
+        12,
+        46,
+        25,
+        tzinfo=tzutc()),
+        'Placement': {
+          'GroupName': '',
+          'Tenancy': 'default',
+          'AvailabilityZone': 'eu-west-2b'
+        },
+        'Monitoring': {
+          'State': 'disabled'
+        },
+        'SubnetId': 'subnet-08e120bb1402b7fba',
+        'VpcId': 'vpc-0971839fabf831029',
+        'PrivateIpAddress': '172.31.35.23'
+      }
+    ]
+  }
+]
